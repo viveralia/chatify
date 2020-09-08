@@ -1,0 +1,42 @@
+.formWrapper {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.form {
+  padding: 1.5rem 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.275rem 4rem 0.275rem 0;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.button {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 2.725rem;
+  height: 2.725rem;
+  font-size: 1.225rem;
+  border: none;
+  background: blue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button svg {
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}

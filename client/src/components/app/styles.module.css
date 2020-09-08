@@ -1,0 +1,6 @@
+.chatList {
+  margin-top: 5rem;
+  overflow-y: auto;
+  max-height: calc(100vh - 10rem);
+  padding: 1rem;
+}

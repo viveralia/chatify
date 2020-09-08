@@ -1,0 +1,11 @@
+.username {
+  opacity: 0.5;
+}
+
+.chat {
+  margin-bottom: 1rem;
+}
+
+.chat:last-of-type {
+  margin-bottom: 0;
+}
